@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+
+            font-family: Arial, sans-serif;
+        }
+div{
+  background-color:lime;
+  color:black;
+  margin:10px;
+  padding:10px;
+  width:300px;
+}
+
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <div>
+      <form>
+    <label for="user name">user name</label>
+    <input type="text" id="user name">
+  </br>
+   <label for="password">password</label>
+    <input type="password" id="password">
+  </br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+</form>
+</div>
+    <!-- Login form with Table -->
+
+    <div>
+      <form>
+        <fieldset>
+        <legend>registstion form</legend>
+    <table>
+      <tr>
+        <td>
+    <label for="user name">user name</label>
+  </td>
+  <td>
+    <input type="text" id="user name">
+</td>
+</tr>
+<tr>
+  <td>
+   <label for="password">password</label>
+</td>
+<td>
+    <input type="password" id="password">
+    <td>
+</tr>
+<tr>
+  <td>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+  </td>
+</tr>
+</table>
+</fieldset>
+  </form>
+  </div>
+
+
+    <!-- Select box with Options -->
+<div>
+<label>select a language</label>
+<select>
+    <option>html</option>
+    <option>css</option>
+    <option>javascript</option>
+    <option>jqury</option>
+    <option>bootstrap</option>
+    <option>angler js</option>
+</select>
+</div>
+    <!-- Textarea box -->
+<div>
+  <label>enter your message</label>
+  <Textarea rows="5" cols="10"></Textarea>
+</div>
+    <!-- Datalist (HTML5) -->
+    <div>
+    <label>select a language</label>
+    <input list="text" name="language">
+     <Datalist id="text">
+       <option>html</option>
+       <option>css</option>
+       <option>javascript</option>
+       <option>jqury</option>
+       <option>bootstrap</option>
+       <option>angler js</option>
+      </Datalist>
+</div>
